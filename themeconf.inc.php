@@ -1,14 +1,42 @@
 <?php
+/*
+Theme Name: Montblanc XL
+Version: 2.1.a
+Description: Nature theme
+Theme URI: http://piwigo.org/ext/extension_view.php?eid=133
+Author: P@t
+Author URI: http://www.gauchon.fr
+*/
+
 $themeconf = array(
-  'template' => 'yoga',
-  'template_dir' => 'template/yoga',
-  'theme' => 'montblancxl',
-  'icon_dir' => PHPWG_ROOT_PATH.'template/yoga/theme/montblancxl/icon',
-  'mime_icon_dir' => PHPWG_ROOT_PATH.'template/yoga/icon/mimetypes/',
-  'local_head' => '<!--[if lt IE 7]>
-  <link rel="stylesheet" type="text/css" href="'.PHPWG_ROOT_PATH.'template/yoga/theme/montblancxl/fix-ie5-ie6.css">
-<![endif]-->'
+  'parent'      => 'default',
+  'icon_dir'    => 'themes/MontblancXL/icon',
+  'local_head'  => 'local_head.tpl',
 );
-$lang['Theme: montblancxl'] = 'Thème MontBlancXL By P@t.';
+
+
+add_event_handler('loc_begin_page_header', 'set_mbxl_header');
+
+function set_mbxl_header()
+{
+  global $page, $conf, $template;
+
+  $config = unserialize($conf['MontblancXL']);
+
+  if (isset($page['body_id']) and $page['body_id'] == 'theCategoryPage')
+  {
+    $header = isset($page['category']) ? $config['categories'] : $config['home'];
+  }
+  elseif (isset($page['body_id']) and $page['body_id'] == 'thePicturePage')
+  {
+    $header = $config['picture'];
+  }
+  else
+  {
+    $header = $config['other'];
+  }
+
+  $template->assign('display_mbxl_banner', $header);
+}
 
 ?>

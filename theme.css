@@ -1,4 +1,4 @@
-@import url(menu.css);
+/* @import url(menu.css); */
 
 * { margin: 0; padding: 0; border: 0; }
 
@@ -16,7 +16,7 @@ h2, h3 { color:#696969; }
 ul { list-style: none; }
 ul li { list-style: none; }
 
-a, a:link { color:#0066CC; text-decoration: none; border:0; }
+a, a:link, a:hover { color:#0066CC; text-decoration: none; border:0 !important; }
 a:hover { text-decoration: none; border-bottom:1px solid #0066CC;}
 /*a:visited { color:#333333;}*/
 
@@ -75,14 +75,6 @@ BODY#thePicturePage,BODY#theCategoryPage, BODY#theTagsPage {}
 	width: 860px;
 	margin: 0 auto !important;
 }
-
-/* Spécifique à la page des images */
-
-#thePicturePage #theHeader {
-	background: transparent url(img/headerpic.jpg) no-repeat center bottom;
-	height: 15px;
-}
-#thePicturePage #theHeader h1 { display: none; }
 
 /*=========================================================================================*/
 
@@ -201,7 +193,7 @@ textarea { width: 100%; }
 }
 
 /* Filter button */
-#menubar .button { position: absolute; left:95% } 
+#menubar .button { position: absolute; left:95%;} 
 #menubar P, #menubar P.totalImages{ clear: both; margin: 0; text-align: center; padding: 0.2em }
 
 /* set menubar height (not for IE) */
@@ -394,3 +386,6 @@ TD.calDayCellEmpty { color: silver; }
 }
 #copyright a:link, #copyright a:visited { text-decoration: underline; color: #000; }
 #copyright a:hover { text-decoration: none; color: #000; border: 0; }
+
+/* About page */
+#piwigoAbout UL { margin: 15px 0; }
