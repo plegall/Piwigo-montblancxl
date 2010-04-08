@@ -10,7 +10,7 @@ Author URI: http://www.gauchon.fr
 
 $themeconf = array(
   'parent'      => 'default',
-  'icon_dir'    => 'themes/MontblancXL/icon',
+  'icon_dir'    => 'themes/montblancxl/icon',
   'local_head'  => 'local_head.tpl',
 );
 
