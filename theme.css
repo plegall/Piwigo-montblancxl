@@ -330,6 +330,8 @@ ul#fullTagCloud {
 .tagLevel2 { font-size:100%; }
 .tagLevel1 { font-size:80%; }
 
+#theTagsPage fieldset.tagLetter { width:181px; }
+
 /* others */
 .pleaseNote {
 	margin: 20px auto;
