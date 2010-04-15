@@ -5,7 +5,7 @@
 {if (!$display_mbxl_banner)}
 <style type="text/css">
 #{$BODY_ID} #theHeader {ldelim}
-	background: transparent url(themes/MontblancXL/img/headerpic.jpg) no-repeat center bottom;
+	background: transparent url(themes/montblancxl/img/headerpic.jpg) no-repeat center bottom;
 	height: 15px;
 }
 #{$BODY_ID} #theHeader h1 {ldelim} display: none; }
