@@ -112,6 +112,10 @@ BODY#thePicturePage,BODY#theCategoryPage, BODY#theTagsPage {}
   border: 1px solid #aaa;
 }
 
+#theImage p {
+  padding: 20px;
+}
+
 #imageHeaderBar H2 { 
 	border: none;
 	clear: both;
