@@ -395,3 +395,13 @@ TD.calDayCellEmpty { color: silver; }
 
 /* About page */
 #piwigoAbout UL { margin: 15px 0; }
+
+
+A:hover .pwg-icon {
+  background-image: url(icon/icons_sprite_hover.png);
+}
+
+.pwg-icon {
+  background-image: url(icon/icons_sprite.png);
+}
+
