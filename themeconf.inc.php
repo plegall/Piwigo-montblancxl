@@ -1,7 +1,7 @@
 <?php
 /*
 Theme Name: Montblanc XL
-Version: 2.1.a
+Version: 2.2.a
 Description: Nature theme
 Theme URI: http://piwigo.org/ext/extension_view.php?eid=133
 Author: P@t
