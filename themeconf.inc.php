@@ -1,8 +1,8 @@
 <?php
 /*
 Theme Name: Montblanc XL
-Version: 2.2.a
-Description: Nature theme
+Version: 2.2.b
+Description: Fixed 860px width, graphical banner, horizontal drop down menu.
 Theme URI: http://piwigo.org/ext/extension_view.php?eid=133
 Author: P@t
 Author URI: http://www.gauchon.fr
