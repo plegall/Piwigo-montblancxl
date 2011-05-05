@@ -403,3 +403,5 @@ A:hover .pwg-icon {
   background-image: url(icon/icons_sprite.png);
 }
 
+.browsePath .button {margin-left:2px}
+h2 .button {margin-left:2px;margin-bottom:2px}
