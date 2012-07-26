@@ -1,5 +1,5 @@
 <dt>
-	<a href="{$block->data.U_CATEGORIES}">{'Categories'|@translate}</a>
+	<a href="{$block->data.U_CATEGORIES}">{'Albums'|@translate}</a>
 </dt>
 <dd>
 {assign var='ref_level' value=0}
