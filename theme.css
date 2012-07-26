@@ -196,6 +196,7 @@ textarea { width: 100%; }
 /* Filter button */
 #menubar .button {float:right;} 
 #menubar P, #menubar P.totalImages{ clear: both; margin: 0; text-align: center; padding: 0.2em }
+#mbCategories .menubarFilter {display:none;}
 
 /* set menubar height (not for IE) */
 #the_page > #menubar, BODY#theAdminPage #the_page > #menubar {
