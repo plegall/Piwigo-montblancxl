@@ -407,6 +407,7 @@ A:hover .pwg-icon {
 h2 .button {margin-left:2px;margin-bottom:2px}
 
 #thePicturePage #derivativeSwitchLink {display:none;}
+#thePicturePage .contentWithMenu {margin-left:0;}
 
 .switchBox, #languageSwitchBox {
   background-color: #fff !important;
