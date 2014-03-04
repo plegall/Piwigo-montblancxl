@@ -1,7 +1,7 @@
 <?php
 /*
 Theme Name: Montblanc XL
-Version: 2.2.b
+Version: auto
 Description: Fixed 860px width, graphical banner, horizontal drop down menu.
 Theme URI: http://piwigo.org/ext/extension_view.php?eid=133
 Author: P@t
