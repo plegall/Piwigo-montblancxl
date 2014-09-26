@@ -12,6 +12,7 @@ $themeconf = array(
   'parent'      => 'default',
   'icon_dir'    => 'themes/montblancxl/icon',
   'local_head'  => 'local_head.tpl',
+  'colorscheme' => 'clear',
 );
 
 
