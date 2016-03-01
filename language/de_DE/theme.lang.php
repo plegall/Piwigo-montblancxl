@@ -1,8 +1,6 @@
 <?php
 
-$lang['Display page banner on home page'] = 'Zeige den Seitenbanner auf der Homepage an';
-$lang['Display page banner on categories pages'] = 'Zeige den Seitenbanner auf den Kategorieseiten an';
-$lang['Display page banner on picture page'] = 'Zeige den Seitenbanner auf der Bilderseite an';
-$lang['Display page banner on other pages'] = 'Zeige den Seitenbanner auf den anderen Seiten an';
-
-?>
+$lang['Display page banner on home page'] = 'Den Seitenbanner auf der Homepage anzeigen';
+$lang['Display page banner on categories pages'] = 'Den Seitenbanner auf den Kategorieseiten anzeigen';
+$lang['Display page banner on picture page'] = 'Den Seitenbanner auf der Bilderseite anzeigen';
+$lang['Display page banner on other pages'] = 'Den Seitenbanner auf anderen Seiten anzeigen';
